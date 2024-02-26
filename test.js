@@ -1,7 +1,5 @@
-const validator = require('validator');
+import chalk from "chalk";
 
+const log = console.log;
 
-var email = validator.isEmail('khoagmail.com');
-console.log(email);
-
-console.log(validator.isURL('khoa.com'));
+log(chalk.green('Hello') + ' Word' + chalk.blue('!'));
