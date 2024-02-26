@@ -1,3 +1,7 @@
-const fs = require('fs');
+const validator = require('validator');
 
-fs.appendFileSync('test.txt', '\nHello World!\n');
+
+var email = validator.isEmail('khoagmail.com');
+console.log(email);
+
+console.log(validator.isURL('khoa.com'));
