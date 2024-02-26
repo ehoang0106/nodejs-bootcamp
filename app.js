@@ -1,1 +1,4 @@
-console.log(process.argv[0]);
+const yargs = require('yargs');
+
+
+console.log(yargs.argv);
