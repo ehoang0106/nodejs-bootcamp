@@ -25,6 +25,10 @@ data.name = 'Khoa';
 data.planet = 'Mars';
 data.age = '26';
 
+
+const userJson = JSON.stringify(data);
 console.log(data);
+
+fs.writeFileSync('1-json.json', userJson);
 
 
