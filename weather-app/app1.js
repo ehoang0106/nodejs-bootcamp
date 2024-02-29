@@ -17,7 +17,7 @@ const getGeo = () => {
         console.log(lon);
     })
 }
-//getGeo();
+
 
 const getWeatherData = () => {
     request({url: weatherUrl, json: true}, (error, response) => {
@@ -37,8 +37,5 @@ const getWeatherData = () => {
     })
 };
 
-//getWeatherData();
+getWeatherData();
 
-request({url: weatherUrl, json: true}, (error, response) => {
-    console.log(error);
-})
