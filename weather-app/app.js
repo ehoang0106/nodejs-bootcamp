@@ -27,8 +27,3 @@ geocode('Orange', 'CA', (error, data) => {
 
 })
 
-
-
-// weatherData('33.7872568', '-117.850308', (error, data) => {
-//     console.log(data);
-// })
